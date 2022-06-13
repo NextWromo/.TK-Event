@@ -49,7 +49,7 @@ export const NAVIGATION = [
     route: '/stage/c'
   },
   {
-    name: '100ms Stage',
+    name: 'Event Stage',
     route: '/stage/m'
   },
   {
