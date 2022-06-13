@@ -22,6 +22,9 @@ module.exports = {
       'images.ctfassets.net',
       'images.prismic.io',
       'cdn.aglty.io',
+      'api.wromo.com',
+      'wromo.at',
+      'drive.google.com',
       'localhost' // For Strapi
     ],
     imageSizes: [24, 64, 300]
