@@ -22,7 +22,7 @@ import { COPYRIGHT_HOLDER, SITE_NAME, CODE_OF_CONDUCT, LEGAL_URL, REPO } from '@
 export function HostedByVercel() {
   return (
     <a
-      href="https://vercel.com"
+      href="https://hallo.tk"
       className={cn(styles['footer-link'], styles['footer-logo'])}
       target="_blank"
       rel="noopener noreferrer"
@@ -53,7 +53,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Source Code
+              -
             </a>
           </p>
           <div className={styles['footer-separator']} />
@@ -64,7 +64,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Code of Conduct
+              - 
             </a>
           </p>
           {LEGAL_URL && (
