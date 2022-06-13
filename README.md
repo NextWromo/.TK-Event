@@ -1,8 +1,8 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvirtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20Vercel.&demo-url=https%3A%2F%2Fdemo.vercel.events%2F&demo-image=https%3A%2F%2Fdemo.vercel.events%2Fdeploy.png&integration-ids=oac_7yeSwUoVR5no3SlA9WM6oR7l)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Ftk-event&project-name=tk-event&repository-name=tk-event&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20Vercel.&demo-url=https%3A%2F%2Fdemo.vercel.events%2F&demo-image=https%3A%2F%2Fdemo.vercel.events%2Fdeploy.png&integration-ids=oac_7yeSwUoVR5no3SlA9WM6oR7l)
 
 # Virtual Events Starter Kit
 
-This virtual event starter kit was used to run [Next.js Conf 2020](https://nextjs.org/2020/conf), which had almost 40,000 live attendees. It includes the following features:
+This TK Event was used to run [Next.js Conf 2020](https://nextjs.org/2020/conf), which had almost 40,000 live attendees. It includes the following features:
 
 - Multiple stages - with the ability to add multiple sessions on each stage
 - Each stage can be configured as -
@@ -27,7 +27,7 @@ This platform is built upon three principles:
 - Framework: [Next.js](https://nextjs.org/)
   - [CSS Modules](https://nextjs.org/docs/basic-features/built-in-css-support)
   - [TypeScript](https://nextjs.org/docs/basic-features/typescript)
-- CMS: [Multiple Options](https://github.com/vercel/virtual-event-starter-kit#cms)
+- CMS: [Multiple Options](https://github.com/vercel/tk-event#cms)
 - Video (Pre-recorded): [YouTube](https://www.youtube.com/)
 - Live interactive video: [100ms](http://www.100ms.live)
 - Deployment: [Vercel](https://vercel.com/)
@@ -49,7 +49,7 @@ The virtual events starter kit now has added support for organising truly LIVE v
 
 Click the button below to clone and deploy this template on [Vercel](https://vercel.com/).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/100mslive/virtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-url=https://demo.vercel.events&demo-image=https://demo.vercel.events/deploy.png&integration-ids=oac_7yeSwUoVR5no3SlA9WM6oR7l&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js,%20100ms%20and%20DatoCMS)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/100mslive/tk-event&project-name=tk-event&repository-name=tk-event&demo-url=https://demo.vercel.events&demo-image=https://demo.vercel.events/deploy.png&integration-ids=oac_7yeSwUoVR5no3SlA9WM6oR7l&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js,%20100ms%20and%20DatoCMS)
 
 You’ll be asked to install the **100ms with DatoCMS** integration. It lets you sign up or log in to 100ms and DatoCMS, and connects your DatoCMS and 100ms account to vercel. In a single integration, you will be able to deploy a fully working template that contains all the elements of the virtual events starter kit.
 
@@ -113,13 +113,13 @@ To learn more on how to customise the live video aspect of this template, refer 
 
 ### **CMS**
 
-Environment variables determine which CMS to use. See [lib/cms-api.ts](https://github.com/vercel/virtual-event-starter-kit/blob/main/lib/cms-api.ts) for details and `.env.local.example` for all environment variables. The demo ([demo.vercel.events](https://demo.vercel.events/)) uses DatoCMS, but we also have support for:
+Environment variables determine which CMS to use. See [lib/cms-api.ts](https://github.com/vercel/tk-event/blob/main/lib/cms-api.ts) for details and `.env.local.example` for all environment variables. The demo ([demo.vercel.events](https://demo.vercel.events/)) uses DatoCMS, but we also have support for:
 
-- [Agility](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvirtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20Vercel.&demo-url=https%3A%2F%2Fdemo.vercel.events%2F&demo-image=https%3A%2F%2Fdemo.vercel.events%2Fdeploy.png&integration-ids=oac_Dnqk9CoC6rZ18k9nVR9KresV&external-id=%7B%22manifest%22%3A%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fvercel%2Fvirtual-event-starter-kit%2Fmain%2Fdatocms.json%22%2C%20%22githubRepo%22%3A%20%22vercel%2Fvirtual-event-starter-kit%22%7D)
-- [Contentful](https://github.com/vercel/virtual-event-starter-kit/blob/main/lib/cms-providers/contentful.ts)
-- [Prismic](https://github.com/vercel/virtual-event-starter-kit/blob/main/lib/cms-providers/prismic/index.ts) ([Instructions](https://github.com/vercel/virtual-event-starter-kit/blob/main/lib/cms-providers/prismic/README.md))
+- [Agility](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Ftk-event&project-name=tk-event&repository-name=tk-event&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20Vercel.&demo-url=https%3A%2F%2Fdemo.vercel.events%2F&demo-image=https%3A%2F%2Fdemo.vercel.events%2Fdeploy.png&integration-ids=oac_Dnqk9CoC6rZ18k9nVR9KresV&external-id=%7B%22manifest%22%3A%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fvercel%2Ftk-event%2Fmain%2Fdatocms.json%22%2C%20%22githubRepo%22%3A%20%22vercel%2Ftk-event%22%7D)
+- [Contentful](https://github.com/vercel/tk-event/blob/main/lib/cms-providers/contentful.ts)
+- [Prismic](https://github.com/vercel/tk-event/blob/main/lib/cms-providers/prismic/index.ts) ([Instructions](https://github.com/vercel/tk-event/blob/main/lib/cms-providers/prismic/README.md))
 - [Sanity](https://create.sanity.io/?template=sanity-io%2Fsanity-template-nextjs-event-starter)
-- [Storyblok](https://github.com/vercel/virtual-event-starter-kit/blob/main/lib/cms-providers/storyblok.ts)
+- [Storyblok](https://github.com/vercel/tk-event/blob/main/lib/cms-providers/storyblok.ts)
   - Click the following link to create the space for this starter kit in Storyblok: [Create Event Space](https://app.storyblok.com/#!/build/101757)
 
 ### **Constants**

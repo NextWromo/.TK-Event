@@ -1,6 +1,6 @@
 {
-  "name": "Virtual Event Starter Kit",
-  "description": "Fully customizable starter kit for your virtual event.",
+  "name": "TK Event",
+  "description": "Live Starter hallo.tk event.",
   "previewImage": "https://demo.vercel.events/twitter-card.png",
   "datocmsProjectId": "37685",
   "deploymentType": "vercel",
