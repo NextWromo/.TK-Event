@@ -1,7 +1,7 @@
 {
-  "name": "Virtual Event Starter Kit",
-  "short_name": "Virtual Event Starter Kit",
-  "description": "Virtual Event Starter Kit -> https://demo.vercel.events",
+  "name": "TK Event",
+  "short_name": "TK Event",
+  "description": "TK Event -> https://hallo.tk",
   "display": "standalone",
   "start_url": "/",
   "theme_color": "#fff",
