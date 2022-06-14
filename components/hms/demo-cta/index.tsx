@@ -29,12 +29,12 @@ const DemoButton = () => {
       <Dialog.Overlay className={cn(styles['overlay'])} />
       <Dialog.Trigger asChild>
         <button ref={ctaRef} id="cta-btn" className={cn(styles['cta-btn'])}>
-          Try Demo
+          Join Next Event
         </button>
       </Dialog.Trigger>
       <div id="cta-tooltip" className={cn(styles['tooltip'])}>
         <InfoIcon />
-        Click here to demo a live webinar powered by 100ms
+        Join here to the next event in your city!
       </div>
       <Dialog.Content className={cn(styles['content'], 'dialog-animation')}>
         <Dialog.Close asChild className={cn(styles['close-btn'])}>
