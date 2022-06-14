@@ -91,7 +91,7 @@ export default function Layout({
             <SkipNavContent />
             <div className={cn(styles.full, className)}>{children}</div>
           </main>
-          {!activeRoute.startsWith('/expo') && <Footer />}
+          {!activeRoute.startsWith('/stage') && <Footer />}
         </div>
       </div>
     </>
