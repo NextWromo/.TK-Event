@@ -21,9 +21,9 @@
  export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
  export const SITE_NAME = 'TK Event';
  export const META_DESCRIPTION =
-   'This is an open source TK Event developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
+   'This is an open source hallo.TK developers can clone, deploy, and fully customize for professional workers. Created through collaboration of marketers, designers, and developers at Vercel.';
  export const SITE_DESCRIPTION = 
-   'Next Event by hallo.tk online experience by the community, free for everyone.';
+   'Join professional workers to help you, free for everyone.';
  export const DATE = '02 August 2022';
  export const SHORT_DATE = 'Aug 2 - 9:00am PST';
  export const FULL_DATE = 'Aug 1st 9am Pacific Time (GMT-7)';
@@ -37,7 +37,7 @@
  
  export const CODE_OF_CONDUCT =
    'https://wromo.com/exploring-atlantas-modern-homes';
- export const REPO = 'https://github.com/NextWromo/.TK-Event';
+ export const REPO = 'https://hallo.tk';
  export const SAMPLE_TICKET_NUMBER = 1234;
  export const NAVIGATION = [
    {
