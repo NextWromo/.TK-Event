@@ -22,8 +22,6 @@ import { META_DESCRIPTION } from '@lib/constants';
 
 import MyLeaderBoardAd from "/MyLeaderBoardAd";
 
-<MyLeaderBoardAd />
-
 export default function Conf() {
   const { query } = useRouter();
   const meta = {
