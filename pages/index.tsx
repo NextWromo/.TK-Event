@@ -16,8 +16,6 @@
 
 import { useRouter } from 'next/router';
 import { SkipNavContent } from '@reach/skip-nav';
-import script from 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7005479426047475';
-
 import Page from '@components/page';
 import ConfContent from '@components/index';
 import { META_DESCRIPTION } from '@lib/constants';
@@ -36,6 +34,11 @@ export default function Conf() {
     username: query.username?.toString()
   };
 
+  return (
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7005479426047475"
+     crossorigin="anonymous"></script>
+  );
+  
   return (
     <Page meta={meta} fullViewport>
       <SkipNavContent />
