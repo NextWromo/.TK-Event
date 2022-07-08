@@ -20,7 +20,7 @@ import Page from '@components/page';
 import ConfContent from '@components/index';
 import { META_DESCRIPTION } from '@lib/constants';
 
-import MyLeaderBoardAd from "/MyLeaderBoardAd";
+/// import MyLeaderBoardAd from "/MyLeaderBoardAd";
 
 export default function Conf() {
   const { query } = useRouter();
@@ -35,6 +35,19 @@ export default function Conf() {
     name: query.name?.toString(),
     username: query.username?.toString()
   };
+  
+      componentDidMount() {
+     (window.adsbygoogle = window.adsbygoogle || []).push({})
+    }
+
+   render () {
+    return(
+        <div>
+        <ins className = "adsbygoogle"
+                style = { {display:"inline-block",width:"728px",height:"90px"} }
+                data-ad-client = "ca-pub-7005479426047475"
+                data-ad-slot = ""></ins>
+        </div>)
 
 
   return (
