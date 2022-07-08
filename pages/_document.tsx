@@ -21,19 +21,8 @@ export default class CustomDocument extends Document {
     return (
       <Html lang="en">
         <Head />
-        
-              componentDidMount() {
-     (window.adsbygoogle = window.adsbygoogle || []).push({})
-    }
-        
-           render () {
-    return(
-        <div>
-        <ins className = "adsbygoogle"
-                style = { {display:"inline-block",width:"728px",height:"90px"} }
-                data-ad-client = "ca-pub-7005479426047475"
-                data-ad-slot = ""></ins>
-        </div>)
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7005479426047475"
+     crossorigin="anonymous"></script>
         
         <body className="loading">
           <Main />
