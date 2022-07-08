@@ -20,7 +20,7 @@ import Page from '@components/page';
 import ConfContent from '@components/index';
 import { META_DESCRIPTION } from '@lib/constants';
 
-import MyLeaderBoardAd from "your/path/MyLeaderBoardAd";
+import MyLeaderBoardAd from "/MyLeaderBoardAd";
 
 <MyLeaderBoardAd />
 
