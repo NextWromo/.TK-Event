@@ -16,7 +16,7 @@
 
 import { useRouter } from 'next/router';
 import { SkipNavContent } from '@reach/skip-nav';
-import script from '/a.js';
+import script from 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7005479426047475';
 
 import Page from '@components/page';
 import ConfContent from '@components/index';
