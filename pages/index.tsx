@@ -20,6 +20,10 @@ import Page from '@components/page';
 import ConfContent from '@components/index';
 import { META_DESCRIPTION } from '@lib/constants';
 
+import MyLeaderBoardAd from "your/path/MyLeaderBoardAd";
+
+<MyLeaderBoardAd />
+
 export default function Conf() {
   const { query } = useRouter();
   const meta = {
